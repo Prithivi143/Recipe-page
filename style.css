@@ -50,6 +50,9 @@ h1,h2,h3,h4,h5,h6{
     background-color: var(--white);
     max-width: 700px;
     padding: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 img{
     width: 100%;
@@ -58,6 +61,8 @@ img{
 .preptime{
     background-color:hsl(330, 100%, 98%);
     border-radius: 10px;
+    font-family:"Outfit" ,sans-serif;
+
 }
  
 h2{
@@ -76,8 +81,66 @@ ul{
 ol{
     padding:0px 30px;
 }
-
-.one{
-    color: aqua;
+ td{
+    width: 100%;
+ }
+ .color1{
+    height:40px;
+    border-bottom: .5px solid rgba(5, 5, 5, 0.164);
+ }
+ .color1{
+    color:  hsl(14, 45%, 36%) ; 
+    font-weight: 500%;
+    font-size: medium;
 }
- 
+
+.style{
+    color:   hsl(14, 45%, 36%);
+    padding-left:3.5px;
+    font-weight: 200;
+
+}
+.preptime1{
+    color:  hsl(332, 51%, 32%);
+    font-family: 'Poppins', sans-serif;
+    color: #882d59; /* adjust color if needed */
+    font-weight:100;
+    font-size: 19px;
+    
+
+}
+.font{
+    font-family:  "Outfit" , sans-serif;
+    font-size:small;
+    color:   hsl(11, 51%, 17%);
+
+line-height: 1.8;
+}
+.omlet{
+    padding-top: 20px;
+    color:var (--stone-900) ;
+     font-size:xx-large;
+     font-weight: 100;
+}
+ h2{
+  color:  hsl(14, 45%, 36%);
+  
+ }
+ol{
+    list-style-type:decimal;
+    color: hsl(14, 45%, 36%) ;
+}
+.Ingredients1{
+    font-weight: 200;
+}
+.color2{
+    border-bottom:.5px solid rgba(5, 5, 5, 0.164);
+
+}
+.color3{
+    color:  hsl(14, 45%, 36%);
+    padding-bottom;
+}
+.color4{
+    height: 40px;
+}
